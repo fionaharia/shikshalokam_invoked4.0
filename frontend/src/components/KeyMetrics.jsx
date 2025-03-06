@@ -4,16 +4,17 @@ import { useTranslation } from "react-i18next";
 
 export default function KeyMetrics() {
   const { t } = useTranslation();
+
   // Sample metrics data; update as needed
   const daysAttended = 180;
   const daysOpen = 200;
   const upcomingAssignment = {
-    subject: "Math",
-    description: "Complete algebra homework",
+    subject: t("keyMetrics.nextAssignment.subject", "Math"),
+    // Remove hardcoded description and use translation instead
     dueDate: "2025-02-25",
   };
   const nextEvent = {
-    name: "Annual Day",
+    name: t("keyMetrics.nextEvent.name", "Annual Day"),
     date: "2025-03-01",
   };
 
@@ -32,6 +33,7 @@ export default function KeyMetrics() {
           {t("keyMetrics.attendance.daysAttendedLabel")}
         </p>
       </div>
+
       {/* Upcoming Assignment Metric */}
       <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6 text-white">
         <div className="flex items-center mb-4">
@@ -41,11 +43,13 @@ export default function KeyMetrics() {
           </h3>
         </div>
         <p className="text-xl font-bold">{upcomingAssignment.subject}</p>
-        <p className="text-sm">{upcomingAssignment.description}</p>
+        {/* Use the translated description directly from translations */}
+        <p className="text-sm">{t("keyMetrics.nextAssignment.description")}</p>
         <p className="text-sm text-gray-300">
           {t("keyMetrics.nextAssignment.due")} {upcomingAssignment.dueDate}
         </p>
       </div>
+
       {/* Next Event Metric */}
       <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6 text-white">
         <div className="flex items-center mb-4">

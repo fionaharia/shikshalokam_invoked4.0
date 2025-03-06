@@ -7,10 +7,10 @@ export default function ExamsAndResults() {
   const exams = [
     {
       id: 1,
-      studentName: "John Doe",
+      studentName: t("examsAndResults.students.johnDoe"),
       studentId: "101",
-      subject: "Math",
-      examType: "Mid-Term",
+      subject: t("subjects.math"),
+      examType: t("examsAndResults.examTypes.midTerm"),
       examDate: "2025-02-15",
       maxMarks: 100,
       obtainedMarks: 85,
@@ -18,17 +18,17 @@ export default function ExamsAndResults() {
     },
     {
       id: 2,
-      studentName: "Jane Smith",
+      studentName: t("examsAndResults.students.janeSmith"),
       studentId: "102",
-      subject: "Science",
-      examType: "Final",
+      subject: t("subjects.science"),
+      examType: t("examsAndResults.examTypes.final"),
       examDate: "2025-03-10",
       maxMarks: 100,
       obtainedMarks: 78,
       grade: "B+",
     },
   ];
-
+  
   return (
     <div className="bg-white/90 backdrop-blur-xl border border-white/90 shadow-xl rounded-xl p-6">
       <div className="flex items-center justify-between mb-6">

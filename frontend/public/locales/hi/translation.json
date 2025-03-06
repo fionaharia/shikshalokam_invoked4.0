@@ -1,150 +1,196 @@
 {
-    "assignments": {
-      "title": "असाइनमेंट्स",
-      "due": "समय सीमा:",
-      "viewResources": "संसाधन देखें →",
-      "statusComplete": "पूर्ण",
-      "statusIncomplete": "अपूर्ण"
+  "assignments": {
+    "title": "असाइनमेंट्स",
+    "statusComplete": "पूर्ण",
+    "statusIncomplete": "अपूर्ण",
+    "due": "समय सीमा:",
+    "viewResources": "संसाधन देखें",
+    "tasks": {
+      "algebraHomework": "बीजगणित होमवर्क पूरा करें",
+      "ecosystemReport": "पारिस्थितिकी तंत्र पर रिपोर्ट लिखें"
+    }
+  },
+  "attendance": {
+    "title": "उपस्थिति",
+    "present": "उपस्थित",
+    "absent": "अनुपस्थित",
+    "table": {
+      "name": "नाम",
+      "rollNo": "रोल नंबर",
+      "date": "तारीख",
+      "status": "स्थिति"
+    }
+  },
+  "chatbot": {
+    "assistantTitle": "शैक्षिक सहायक",
+    "initialMessage": "नमस्ते! मैं आपका शैक्षिक सहायक हूँ। आज मैं आपकी किस प्रकार मदद कर सकता हूँ?",
+    "placeholder": "यहाँ अपना संदेश टाइप करें...",
+    "botReply": "आपके संदेश के लिए धन्यवाद। मैं एक डेमो चैटबॉट हूँ। पूर्ण संस्करण में, मैं आपकी शैक्षिक प्रश्नों में मदद कर सकूंगा!"
+  },
+  "dailySummary": {
+    "title": "दैनिक सारांश",
+    "summaryText": "टीचर जॉन ने एक नया सारांश अपलोड किया:",
+    "audioFallback": "आपका ब्राउज़र ऑडियो एलिमेंट का समर्थन नहीं करता।"
+  },
+  "subjects": {
+    "math": "गणित",
+    "science": "विज्ञान",
+    "physics": "भौतिकी",
+    "chemistry": "रसायन विज्ञान",
+    "biology": "जीव विज्ञान",
+    "history": "इतिहास",
+    "geography": "भूगोल",
+    "english": "अंग्रेज़ी",
+    "computerScience": "कंप्यूटर विज्ञान"
+  },
+  "examsAndResults": {
+    "title": "परीक्षाएँ और परिणाम",
+    "idLabel": "आईडी:",
+    "students": {
+      "johnDoe": "जॉन डो",
+      "janeSmith": "जेन स्मिथ"
     },
+    "examTypes": {
+      "midTerm": "मध्य-अवधि",
+      "final": "अंतिम"
+    },
+    "table": {
+      "student": "छात्र",
+      "subject": "विषय",
+      "examType": "परीक्षा प्रकार",
+      "marks": "अंक",
+      "grade": "ग्रेड"
+    }
+  },
+  "graphCards": {
+    "attendanceOverview": {
+      "title": "उपस्थिति अवलोकन"
+    },
+    "academicPerformance": {
+      "title": "शैक्षिक प्रदर्शन"
+    }
+  },
+  "keyMetrics": {
     "attendance": {
       "title": "उपस्थिति",
-      "present": "उपस्थित",
-      "absent": "अनुपस्थित",
-      "table": {
+      "daysAttendedLabel": "दिन उपस्थित"
+    },
+    "nextAssignment": {
+      "title": "अगला असाइनमेंट",
+      "due": "समय सीमा:",
+      "description": "बीजगणित का होमवर्क पूरा करें"
+    },
+    "nextEvent": {
+      "title": "अगला कार्यक्रम",
+      "on": "पर:"
+    }
+  },
+  "modal": {
+    "emailLabel": "ईमेल",
+    "emailPlaceholder": "अपना ईमेल दर्ज करें",
+    "passwordLabel": "पासवर्ड",
+    "passwordPlaceholder": "अपना पासवर्ड दर्ज करें",
+    "loginButton": "लॉग इन करें"
+  },
+  "scholarships": {
+    "title": "छात्रवृत्तियाँ",
+    "statusOpen": "खुला",
+    "statusClosed": "बंद",
+    "eligibility": "पात्रता:",
+    "deadline": "अंतिम तिथि:",
+    "applyNow": "अभी आवेदन करें",
+    "types": {
+      "merit": "मेरिट छात्रवृत्ति",
+      "needBased": "आवश्यकता-आधारित छात्रवृत्ति"
+    },
+    "eligibilityCriteria": {
+      "gpa": "जीपीए > 3.5",
+      "financial": "वित्तीय आवश्यकता के आधार पर"
+    }
+  },
+  "sidebar": {
+    "dashboard": "डैशबोर्ड",
+    "home": "होम",
+    "attendance": "उपस्थिति",
+    "dailySummary": "दैनिक सारांश",
+    "events": "कार्यक्रम",
+    "exams": "परीक्षाएँ",
+    "chatbot": "चैटबोट"
+  },
+  "teacherRemarks": {
+    "title": "शिक्षक टिप्पणियाँ",
+    "teachers": {
+      "msJohnson": "सुश्री जॉनसन",
+      "mrSmith": "श्री स्मिथ"
+    },
+    "comments": {
+      "excellent": "कक्षा में उत्कृष्ट प्रदर्शन।",
+      "needsImprovement": "गणित कौशल में सुधार की आवश्यकता है।"
+    }
+  },
+  "upcomingEvents": {
+    "title": "आगामी कार्यक्रम",
+    "dateLabel": "तारीख:",
+    "annualDay": "वार्षिक दिवस",
+    "annualDayDescription": "उपलब्धियों और प्रदर्शनियों का उत्सव।",
+    "parentTeacherMeeting": "अभिभावक-शिक्षक बैठक",
+    "parentTeacherMeetingDescription": "छात्रों की प्रगति और चिंताओं पर चर्चा करें।"
+  },
+  "upcomingHolidays": {
+    "title": "आगामी छुट्टियाँ",
+    "to": "तक",
+    "springBreak": "वसंत अवकाश",
+    "springBreakDescription": "अपने वसंत अवकाश का आनंद लें!",
+    "summerVacation": "गर्मी की छुट्टी",
+    "summerVacationDescription": "एक अच्छे ब्रेक का समय।"
+  },
+  "homepage": {
+    "brand": "EduConnect",
+    "welcomeTitle": "EduConnect में आपका स्वागत है",
+    "welcomeDescription": "हर छात्र के लिए समृद्ध शिक्षण वातावरण बनाने हेतु माता-पिता और शिक्षकों के बीच सार्थक संबंधों को बढ़ावा देना।",
+    "cards": {
+      "parent": {
+        "title": "अभिभावकों के लिए",
+        "description": "अपने बच्चे की शैक्षिक यात्रा के साथ जुड़े रहें और शिक्षकों के साथ आसानी से संवाद करें।",
+        "button": "शुरू करें"
+      },
+      "teacher": {
+        "title": "शिक्षकों के लिए",
+        "description": "संचार को सरल बनाएं और छात्र सफलता के लिए सहयोगात्मक वातावरण तैयार करें।",
+        "button": "शुरू करें"
+      }
+    },
+    "footer": {
+      "assistance": "सहायता चाहिए? हमसे संपर्क करें",
+      "contact": "support@educonnect.com"
+    }
+  },
+  "teacherDashboard": {
+    "nav": {
+      "title": "शिक्षक डैशबोर्ड",
+      "logout": "लॉगआउट"
+    },
+    "stats": {
+      "totalStudents": "कुल छात्र",
+      "presentToday": "आज उपस्थित",
+      "remarksGiven": "दिए गए टिप्पणियाँ"
+    },
+    "studentList": {
+      "title": "छात्र सूची",
+      "columns": {
         "name": "नाम",
-        "rollNo": "रोल नंबर",
-        "date": "तारीख",
-        "status": "स्थिति"
-      }
-    },
-    "chatbot": {
-      "assistantTitle": "शैक्षिक सहायक",
-      "initialMessage": "नमस्ते! मैं आपका शैक्षिक सहायक हूँ। आज मैं आपकी किस प्रकार मदद कर सकता हूँ?",
-      "placeholder": "यहाँ अपना संदेश टाइप करें...",
-      "botReply": "आपके संदेश के लिए धन्यवाद। मैं एक डेमो चैटबोट हूँ। पूर्ण संस्करण में, मैं आपकी शैक्षिक प्रश्नों में मदद कर सकूंगा!"
-    },
-    "dailySummary": {
-      "title": "दैनिक सारांश",
-      "summaryText": "टीचर जॉन ने एक नया सारांश अपलोड किया:",
-      "audioFallback": "आपका ब्राउज़र ऑडियो एलिमेंट का समर्थन नहीं करता।"
-    },
-    "examsAndResults": {
-      "title": "परीक्षाएँ और परिणाम",
-      "table": {
-        "student": "छात्र",
-        "subject": "विषय",
-        "examType": "परीक्षा प्रकार",
-        "marks": "अंक",
-        "grade": "ग्रेड",
-        "idLabel": "आईडी:"
-      }
-    },
-    "graphCards": {
-      "attendanceOverview": {
-        "title": "उपस्थिति अवलोकन"
+        "grade": "कक्षा",
+        "attendance": "उपस्थिति",
+        "lastUpdated": "अंतिम अपडेट",
+        "actions": "क्रियाएँ"
       },
-      "academicPerformance": {
-        "title": "शैक्षिक प्रदर्शन"
-      }
+      "addRemark": "टिप्पणी जोड़ें"
     },
-    "keyMetrics": {
-      "attendance": {
-        "title": "उपस्थिति",
-        "daysAttendedLabel": "दिन उपस्थित"
-      },
-      "nextAssignment": {
-        "title": "अगला असाइनमेंट",
-        "due": "समय सीमा:"
-      },
-      "nextEvent": {
-        "title": "अगला कार्यक्रम",
-        "on": "पर:"
-      }
-    },
-    "modal": {
-      "emailLabel": "ईमेल",
-      "emailPlaceholder": "अपना ईमेल दर्ज करें",
-      "passwordLabel": "पासवर्ड",
-      "passwordPlaceholder": "अपना पासवर्ड दर्ज करें",
-      "loginButton": "लॉग इन करें"
-    },
-    "scholarships": {
-      "title": "छात्रवृत्तियाँ",
-      "eligibility": "पात्रता:",
-      "deadline": "समय सीमा:",
-      "applyNow": "अब आवेदन करें →",
-      "statusOpen": "खुला",
-      "statusClosed": "बंद"
-    },
-    "sidebar": {
-      "dashboard": "डैशबोर्ड",
-      "home": "होम",
-      "attendance": "उपस्थिति",
-      "dailySummary": "दैनिक सारांश",
-      "events": "कार्यक्रम",
-      "exams": "परीक्षाएँ",
-      "chatbot": "चैटबोट"
-    },
-    "teacherRemarks": {
-      "title": "शिक्षक की टिप्पणियाँ"
-    },
-    "upcomingEvents": {
-      "title": "आगामी कार्यक्रम",
-      "dateLabel": "तारीख:"
-    },
-    "upcomingHolidays": {
-      "title": "आगामी छुट्टियाँ",
-      "to": "तक"
-    },
-    "homepage": {
-      "brand": "EduConnect",
-      "welcomeTitle": "EduConnect में आपका स्वागत है",
-      "welcomeDescription": "हर छात्र के लिए समृद्ध शिक्षण वातावरण बनाने हेतु माता-पिता और शिक्षकों के बीच सार्थक संबंधों को बढ़ावा देना।",
-      "cards": {
-        "parent": {
-          "title": "अभिभावकों के लिए",
-          "description": "अपने बच्चे की शैक्षिक यात्रा के साथ जुड़े रहें और शिक्षकों के साथ आसानी से संवाद करें।",
-          "button": "शुरू करें"
-        },
-        "teacher": {
-          "title": "शिक्षकों के लिए",
-          "description": "संचार को सरल बनाएं और छात्र सफलता के लिए सहयोगात्मक वातावरण तैयार करें।",
-          "button": "शुरू करें"
-        }
-      },
-      "footer": {
-        "assistance": "सहायता चाहिए? हमसे संपर्क करें",
-        "contact": "support@educonnect.com"
-      }
-    },
-    "teacherDashboard": {
-      "nav": {
-        "title": "शिक्षक डैशबोर्ड",
-        "logout": "लॉगआउट"
-      },
-      "stats": {
-        "totalStudents": "कुल छात्र",
-        "presentToday": "आज उपस्थित",
-        "remarksGiven": "दिए गए टिप्पणियाँ"
-      },
-      "studentList": {
-        "title": "छात्र सूची",
-        "columns": {
-          "name": "नाम",
-          "grade": "कक्षा",
-          "attendance": "उपस्थिति",
-          "lastUpdated": "अंतिम अपडेट",
-          "actions": "क्रियाएँ"
-        },
-        "addRemark": "टिप्पणी जोड़ें"
-      },
-      "remarksModal": {
-        "title": "के लिए टिप्पणी जोड़ें",
-        "placeholder": "यहाँ अपनी टिप्पणी दर्ज करें...",
-        "cancel": "रद्द करें",
-        "submit": "सबमिट करें"
-      }
+    "remarksModal": {
+      "title": "के लिए टिप्पणी जोड़ें",
+      "placeholder": "यहाँ अपनी टिप्पणी दर्ज करें...",
+      "cancel": "रद्द करें",
+      "submit": "सबमिट करें"
     }
   }
-  
-    
+}

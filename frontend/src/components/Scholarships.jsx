@@ -7,22 +7,22 @@ export default function Scholarships() {
   const scholarships = [
     {
       id: 1,
-      name: "Merit Scholarship",
-      eligibility: "GPA > 3.5",
+      name: t("scholarships.types.merit"),
+      eligibility: t("scholarships.eligibilityCriteria.gpa"),
       deadline: "2025-04-15",
       link: "https://example.com/apply",
       status: "Open",
     },
     {
       id: 2,
-      name: "Need-based Scholarship",
-      eligibility: "Based on financial need",
+      name: t("scholarships.types.needBased"),
+      eligibility: t("scholarships.eligibilityCriteria.financial"),
       deadline: "2025-05-01",
       link: "https://example.com/apply",
       status: "Closed",
     },
   ];
-
+  
   return (
     <div className="bg-white/90 backdrop-blur-xl border border-white/90 shadow-xl rounded-xl p-6">
       <div className="flex items-center justify-between mb-4">

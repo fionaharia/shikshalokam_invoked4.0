@@ -9,22 +9,22 @@ export default function TeacherRemarks() {
       id: 1,
       studentId: "101",
       teacherId: "T1",
-      teacherName: "Ms. Johnson",
+      teacherName: t("teacherRemarks.teachers.msJohnson"),
       date: "2025-02-20",
-      description: "Excellent performance in class.",
-      subject: "Mathematics"
+      description: t("teacherRemarks.comments.excellent"),
+      subject: t("subjects.math")
     },
     {
       id: 2,
       studentId: "102",
       teacherId: "T2",
-      teacherName: "Mr. Smith",
+      teacherName: t("teacherRemarks.teachers.mrSmith"),
       date: "2025-02-21",
-      description: "Needs to improve in math skills.",
-      subject: "Physics"
+      description: t("teacherRemarks.comments.needsImprovement"),
+      subject: t("subjects.physics")
     },
   ];
-
+  
   return (
     <div className="bg-white/90 backdrop-blur-xl border border-white/90 shadow-xl rounded-xl p-6">
       <div className="flex items-center justify-between mb-4">

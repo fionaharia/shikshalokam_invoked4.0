@@ -8,8 +8,8 @@ export default function Assignments() {
     {
       id: 1,
       studentId: "101",
-      subject: "Math",
-      description: "Complete algebra homework",
+      subject: t("subjects.math"),
+      description: t("assignments.tasks.algebraHomework"),
       dueDate: "2025-02-25",
       status: "Incomplete",
       resources: "https://example.com/resource1",
@@ -17,14 +17,14 @@ export default function Assignments() {
     {
       id: 2,
       studentId: "102",
-      subject: "Science",
-      description: "Write a report on ecosystems",
+      subject: t("subjects.science"),
+      description: t("assignments.tasks.ecosystemReport"),
       dueDate: "2025-02-28",
       status: "Complete",
       resources: "https://example.com/resource2",
     },
   ];
-  
+ 
   return (
     <div className="bg-white/90 backdrop-blur-xl border border-white/90 shadow-xl rounded-xl p-6">
       <div className="flex items-center justify-between mb-6">
@@ -64,7 +64,7 @@ export default function Assignments() {
                 rel="noopener noreferrer"
                 className="text-sm text-purple-600 hover:text-purple-800 font-medium"
               >
-                {t("assignments.viewResources")}
+                {t("assignments.viewResources")} →
               </a>
             </div>
           </div>

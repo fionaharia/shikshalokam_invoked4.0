@@ -1,150 +1,188 @@
 {
-    "assignments": {
-      "title": "பணிகள்",
-      "due": "காலாவதி:",
-      "viewResources": "வளங்களை பார்க்கவும் →",
-      "statusComplete": "முடிந்தது",
-      "statusIncomplete": "முழுமையற்றது"
+  "assignments": {
+    "title": "பணிகள்",
+    "statusComplete": "முடிந்தது",
+    "statusIncomplete": "முடியவில்லை",
+    "due": "காலக்கெடு:",
+    "viewResources": "ஆதாரங்களைக் காண்க",
+    "tasks": {
+      "algebraHomework": "அல்ஜிப்ரா வீட்டுப்பாடத்தை முடிக்கவும்",
+      "ecosystemReport": "சூழலியல் மீது அறிக்கை எழுதுங்கள்"
+    }
+  },
+  "attendance": {
+    "title": "வருகை",
+    "present": "உள்ளார்",
+    "absent": "இல்லை",
+    "table": {
+      "name": "பெயர்",
+      "rollNo": "ரோல் எண்",
+      "date": "தேதி",
+      "status": "நிலை"
+    }
+  },
+  "chatbot": {
+    "assistantTitle": "கல்வி உதவியாளர்",
+    "initialMessage": "வணக்கம்! நான் உங்கள் கல்வி உதவியாளர். இன்று உங்களுக்கு எவ்வாறு உதவலாம்?",
+    "placeholder": "உங்கள் செய்தியை இங்கு டைப் செய்யவும்...",
+    "botReply": "உங்கள் செய்திக்கு நன்றி. நான் ஒரு டெமோச் செயற்கை பேச்சாளர். முழு பதிப்பில், உங்கள் கல்வி கேள்விகளுக்கு உதவுவேன்!"
+  },
+  "dailySummary": {
+    "title": "தினசரி சுருக்கம்",
+    "summaryText": "ஆசிரியர் ஜான் ஒரு புதிய சுருக்கத்தை பதிவேற்றினார்:",
+    "audioFallback": "உங்கள் உலாவி இந்த ஒலியைக் காண்பிக்கவில்லை."
+  },
+  "subjects": {
+    "math": "கணிதம்",
+    "science": "அறிவியல்",
+    "physics": "இயற்பியல்",
+    "chemistry": "வேதியியல்",
+    "biology": "உயிரியல்",
+    "history": "வரலாறு",
+    "geography": "புவியியல்",
+    "english": "ஆங்கிலம்",
+    "computerScience": "கணினி அறிவியல்"
+  },
+  "examsAndResults": {
+    "title": "தேர்வுகள் மற்றும் முடிவுகள்",
+    "idLabel": "ஐடி:",
+    "students": {
+      "johnDoe": "ஜான் டோ",
+      "janeSmith": "ஜேன் ஸ்மித்"
     },
+    "examTypes": {
+      "midTerm": "இடைநிலை தேர்வு",
+      "final": "இறுதி தேர்வு"
+    },
+    "table": {
+      "student": "மாணவர்",
+      "subject": "பாடம்",
+      "examType": "தேர்வு வகை",
+      "marks": "மதிப்பெண்கள்",
+      "grade": "தரம்"
+    }
+  },
+  "graphCards": {
+    "attendanceOverview": {
+      "title": "வருகை அவதானிப்பு"
+    },
+    "academicPerformance": {
+      "title": "கல்வி செயல்திறன்"
+    }
+  },
+  "keyMetrics": {
     "attendance": {
       "title": "வருகை",
-      "present": "உள்ளார்",
-      "absent": "இல்லை",
-      "table": {
+      "daysAttendedLabel": "வருகையிட்ட நாட்கள்"
+    },
+    "nextAssignment": {
+      "title": "அடுத்த பணிகள்",
+      "due": "காலக்கெடு:",
+      "description": "அல்ஜீபிரா வீட்டுப்பாடத்தை முடிக்கவும்"
+    },
+    "nextEvent": {
+      "title": "அடுத்த நிகழ்வு",
+      "on": "நாள்:"
+    }
+  },
+  "modal": {
+    "emailLabel": "மின்னஞ்சல்",
+    "emailPlaceholder": "உங்கள் மின்னஞ்சலை உள்ளிடவும்",
+    "passwordLabel": "கடவுச்சொல்",
+    "passwordPlaceholder": "உங்கள் கடவுச்சொல்லை உள்ளிடவும்",
+    "loginButton": "உள்நுழைய"
+  },
+  "scholarships": {
+    "title": "உதவித்தொகைகள்",
+    "statusOpen": "திறந்துள்ளது",
+    "statusClosed": "மூடப்பட்டது",
+    "eligibility": "தகுதி:",
+    "deadline": "காலக்கெடு:",
+    "applyNow": "இப்போது விண்ணப்பிக்கவும்",
+    "types": {
+      "merit": "தகுதி உதவித்தொகை",
+      "needBased": "தேவை அடிப்படையிலான உதவித்தொகை"
+    },
+    "eligibilityCriteria": {
+      "gpa": "ஜிபிஏ > 3.5",
+      "financial": "நிதித் தேவையின் அடிப்படையில்"
+    }
+  },
+  "sidebar": {
+    "dashboard": "டாஷ்போர்டு",
+    "home": "முகப்பு",
+    "attendance": "வருகை",
+    "dailySummary": "தினசரி சுருக்கம்",
+    "events": "நிகழ்வுகள்",
+    "exams": "பரீட்சைகள்",
+    "chatbot": "சாட்பாட்"
+  },
+  "teacherRemarks": {
+    "title": "ஆசிரியர் கருத்துக்கள்",
+    "teachers": {
+      "msJohnson": "திருமதி ஜான்சன்",
+      "mrSmith": "திரு ஸ்மித்"
+    },
+    "comments": {
+      "excellent": "வகுப்பில் சிறந்த செயல்திறன்.",
+      "needsImprovement": "கணித திறன்களில் முன்னேற்றம் தேவை."
+    }
+  },
+  "upcomingEvents": {
+    "title": "வரவிருக்கும் நிகழ்வுகள்",
+    "dateLabel": "தேதி:",
+    "annualDay": "ஆண்டு விழா",
+    "annualDayDescription": "சாதனைகள் மற்றும் நிகழ்ச்சிகளின் கொண்டாட்டம்.",
+    "parentTeacherMeeting": "பெற்றோர்-ஆசிரியர் சந்திப்பு",
+    "parentTeacherMeetingDescription": "மாணவர்கள் முன்னேற்றம் மற்றும் கவலைகளை விவாதிக்கவும்."
+  },
+  "homepage": {
+    "brand": "EduConnect",
+    "welcomeTitle": "EduConnect இல் உங்களை வரவேற்கிறோம்",
+    "welcomeDescription": "ஒவ்வொரு மாணவருக்கும் வளமான கல்வி சூழலை உருவாக்குவதற்காக பெற்றோர்களுக்கும் ஆசிரியர்களுக்கும் இடையே பொருத்தமான தொடர்புகளை மேம்படுத்துவது.",
+    "cards": {
+      "parent": {
+        "title": "பெற்றோர்களுக்காக",
+        "description": "உங்கள் குழந்தையின் கல்வி பயணத்துடன் இணைந்திருங்கள் மற்றும் ஆசிரியர்களுடன் எளிதாக தொடர்பு கொள்ளுங்கள்.",
+        "button": "தொடங்குங்கள்"
+      },
+      "teacher": {
+        "title": "ஆசிரியர்களுக்காக",
+        "description": "தொடர்பு முறையை எளிமையாக்கி, மாணவர் வெற்றிக்காக கூட்டுறவு சூழலை உருவாக்குங்கள்.",
+        "button": "தொடங்குங்கள்"
+      }
+    },
+    "footer": {
+      "assistance": "உதவி தேவை? எங்களை தொடர்பு கொள்ளுங்கள்",
+      "contact": "support@educonnect.com"
+    }
+  },
+  "teacherDashboard": {
+    "nav": {
+      "title": "ஆசிரியர் டாஷ்போர்டு",
+      "logout": "வெளியேறு"
+    },
+    "stats": {
+      "totalStudents": "மொத்த மாணவர்கள்",
+      "presentToday": "இன்று வருகை",
+      "remarksGiven": "குறிப்புகள் வழங்கப்பட்டது"
+    },
+    "studentList": {
+      "title": "மாணவர் பட்டியல்",
+      "columns": {
         "name": "பெயர்",
-        "rollNo": "ரோல் எண்",
-        "date": "தேதி",
-        "status": "நிலை"
-      }
-    },
-    "chatbot": {
-      "assistantTitle": "கல்வி உதவியாளர்",
-      "initialMessage": "வணக்கம்! நான் உங்கள் கல்வி உதவியாளர். நான் இன்று உங்களுக்கு எவ்வாறு உதவலாம்?",
-      "placeholder": "உங்கள் செய்தியை இங்கு টাইப் செய்யவும்...",
-      "botReply": "உங்கள் செய்திக்கு நன்றி. நான் ஒரு டெமோச் செயற்கை பேச்சாளர். முழு பதிப்பில், உங்கள் கல்வி கேள்விகளுக்கு உதவுவேன்!"
-    },
-    "dailySummary": {
-      "title": "தினசரி சுருக்கம்",
-      "summaryText": "ஆசிரியர் ஜான் ஒரு புதிய சுருக்கத்தை பதிவேற்றினார்:",
-      "audioFallback": "உங்கள் உலாவி ஆடியோ உருப்படியை ஆதரிக்கவில்லை."
-    },
-    "examsAndResults": {
-      "title": "பரீட்சைகள் மற்றும் முடிவுகள்",
-      "table": {
-        "student": "மாணவர்",
-        "subject": "பாடம்",
-        "examType": "தேர்வு வகை",
-        "marks": "மதிப்பெண்கள்",
         "grade": "தரம்",
-        "idLabel": "அடையாளம்:"
-      }
-    },
-    "graphCards": {
-      "attendanceOverview": {
-        "title": "வருகை ஆய்வு"
+        "attendance": "வருகை",
+        "lastUpdated": "கடைசி புதுப்பிப்பு",
+        "actions": "நடவடிக்கைகள்"
       },
-      "academicPerformance": {
-        "title": "கல்வி செயல்திறன்"
-      }
+      "addRemark": "கருத்தை சேர்க்கவும்"
     },
-    "keyMetrics": {
-      "attendance": {
-        "title": "வருகை",
-        "daysAttendedLabel": "வருகையிட்ட நாட்கள்"
-      },
-      "nextAssignment": {
-        "title": "அடுத்த பணிகள்",
-        "due": "காலவரை:"
-      },
-      "nextEvent": {
-        "title": "அடுத்த நிகழ்வு",
-        "on": "நாள்:"
-      }
-    },
-    "modal": {
-      "emailLabel": "மின்னஞ்சல்",
-      "emailPlaceholder": "உங்கள் மின்னஞ்சலை உள்ளிடவும்",
-      "passwordLabel": "கடவுச்சொல்",
-      "passwordPlaceholder": "உங்கள் கடவுச்சொல்லை உள்ளிடவும்",
-      "loginButton": "உள்நுழையவும்"
-    },
-    "scholarships": {
-      "title": "கல்வி உதவித் தொகைகள்",
-      "eligibility": "தகுதி:",
-      "deadline": "காலக்கெடு:",
-      "applyNow": "இப்போது விண்ணப்பிக்கவும் →",
-      "statusOpen": "திறந்தது",
-      "statusClosed": "மூடப்பட்டது"
-    },
-    "sidebar": {
-      "dashboard": "டாஷ்போர்டு",
-      "home": "முகப்பு",
-      "attendance": "வருகை",
-      "dailySummary": "தினசரி சுருக்கம்",
-      "events": "நிகழ்வுகள்",
-      "exams": "பரீட்சைகள்",
-      "chatbot": "சாட்பாட்"
-    },
-    "teacherRemarks": {
-      "title": "ஆசிரியர் குறிப்புகள்"
-    },
-    "upcomingEvents": {
-      "title": "வரவிருக்கும் நிகழ்வுகள்",
-      "dateLabel": "தேதி:"
-    },
-    "upcomingHolidays": {
-      "title": "வரவிருக்கும் விடுமுறைகள்",
-      "to": "வரை"
-    },
-    "homepage": {
-      "brand": "EduConnect",
-      "welcomeTitle": "EduConnect இல் உங்களை வரவேற்கிறோம்",
-      "welcomeDescription": "ஒவ்வொரு மாணவருக்கும் வளமான கல்வி சூழலை உருவாக்குவதற்காக பெற்றோர்களுக்கும் ஆசிரியர்களுக்கும் இடையே பொருத்தமான தொடர்புகளை மேம்படுத்துவது.",
-      "cards": {
-        "parent": {
-          "title": "பெற்றோர்களுக்காக",
-          "description": "உங்கள் குழந்தையின் கல்வி பயணத்துடன் இணைந்திருங்கள் மற்றும் ஆசிரியர்களுடன் எளிதாக தொடர்பு கொள்ளுங்கள்.",
-          "button": "தொடங்குங்கள்"
-        },
-        "teacher": {
-          "title": "ஆசிரியர்களுக்காக",
-          "description": "தொடர்பு முறையை எளிமையாக்கி, மாணவர் வெற்றிக்காக கூட்டுறவு சூழலை உருவாக்குங்கள்.",
-          "button": "தொடங்குங்கள்"
-        }
-      },
-      "footer": {
-        "assistance": "உதவி தேவை? எங்களை தொடர்பு கொள்ளுங்கள்",
-        "contact": "support@educonnect.com"
-      }
-    },
-    "teacherDashboard": {
-      "nav": {
-        "title": "ஆசிரியர் டாஷ்போர்டு",
-        "logout": "வெளியேறு"
-      },
-      "stats": {
-        "totalStudents": "மொத்த மாணவர்கள்",
-        "presentToday": "இன்று வருகை",
-        "remarksGiven": "குறிப்புகள் வழங்கப்பட்டது"
-      },
-      "studentList": {
-        "title": "மாணவர் பட்டியல்",
-        "columns": {
-          "name": "பெயர்",
-          "grade": "தரம்",
-          "attendance": "வருகை",
-          "lastUpdated": "கடைசி புதுப்பிப்பு",
-          "actions": "நடவடிக்கைகள்"
-        },
-        "addRemark": "கருத்தை சேர்க்கவும்"
-      },
-      "remarksModal": {
-        "title": "குறிப்பை சேர்க்கவும்",
-        "placeholder": "உங்கள் கருத்தை இங்கு உள்ளிடவும்...",
-        "cancel": "ரத்து செய்",
-        "submit": "சமர்ப்பிக்கவும்"
-      }
+    "remarksModal": {
+      "title": "கருத்தை சேர்க்கவும்",
+      "placeholder": "உங்கள் கருத்தை இங்கு உள்ளிடவும்...",
+      "cancel": "ரத்து செய்",
+      "submit": "சமர்ப்பிக்கவும்"
     }
   }
-  
-      
+}
