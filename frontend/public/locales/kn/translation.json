@@ -1,0 +1,149 @@
+{
+    "assignments": {
+      "title": "ಅಸೈನ್‌ಮೆಂಟ್ಸ್",
+      "due": "ಕೊನೆ ದಿನಾಂಕ:",
+      "viewResources": "ಸಂಪನ್ಮೂಲಗಳನ್ನು ನೋಡಿ →",
+      "statusComplete": "ಪೂರ್ಣಗೊಂಡಿದೆ",
+      "statusIncomplete": "ಅಪೂರ್ಣ"
+    },
+    "attendance": {
+      "title": "ಹಾಜರಿ",
+      "present": "ಹಾಜರಿದ್ದಾರೆ",
+      "absent": "ಅನುಪಸ್ಥಿತ",
+      "table": {
+        "name": "ಹೆಸರು",
+        "rollNo": "ರೋಲ್ ಸಂಖ್ಯೆ",
+        "date": "ದಿನಾಂಕ",
+        "status": "ಸ್ಥಿತಿ"
+      }
+    },
+    "chatbot": {
+      "assistantTitle": "ಶೈಕ್ಷಣಿಕ ಸಹಾಯಕ",
+      "initialMessage": "ನಮಸ್ಕಾರ! ನಾನು ನಿಮ್ಮ ಶೈಕ್ಷಣಿಕ ಸಹಾಯಕ. ನಾನು ಇವತ್ತಿನ ನಿಮ್ಮ ಸಹಾಯಕ್ಕೆ ಹೇಗೆ ನೆರವಾಗಬಹುದು?",
+      "placeholder": "ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ಇಲ್ಲಿ ಟೈಪ್ ಮಾಡಿ...",
+      "botReply": "ನಿಮ್ಮ ಸಂದೇಶಕ್ಕೆ ಧನ್ಯವಾದಗಳು. ನಾನು ಒಂದು ಡೆಮೋ ಚಾಟ್‌ಬಾಟ್. ಪೂರ್ಣ ಆವೃತ್ತಿಯಲ್ಲಿ, ನಿಮ್ಮ ಶೈಕ್ಷಣಿಕ ಪ್ರಶ್ನೆಗಳಿಗೆ ನಾನು ಸಹಾಯ ಮಾಡುತ್ತೇನೆ!"
+    },
+    "dailySummary": {
+      "title": "ದೈನಂದಿನ ಸಾರಾಂಶ",
+      "summaryText": "ಶಿಕ್ಷಕ ಜಾನ್ ಹೊಸ ಸಾರಾಂಶವನ್ನು ಅಪ್ಲೋಡ್ ಮಾಡಿದ್ದಾರೆ:",
+      "audioFallback": "ನಿಮ್ಮ ಬ್ರೌಸರ್ ಆಡಿಯೊ ಎಲೆಮೆಂಟ್ ಅನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ."
+    },
+    "examsAndResults": {
+      "title": "ಪರೀಕ್ಷೆಗಳು ಮತ್ತು ಫಲಿತಾಂಶಗಳು",
+      "table": {
+        "student": "ವಿದ್ಯಾರ್ಥಿ",
+        "subject": "ವಿಷಯ",
+        "examType": "ಪರೀಕ್ಷೆಯ ವಿಧ",
+        "marks": "ಅಂಕಗಳು",
+        "grade": "ಗ್ರೇಡ್",
+        "idLabel": "ಐಡಿ:"
+      }
+    },
+    "graphCards": {
+      "attendanceOverview": {
+        "title": "ಹಾಜರಿ ಅವಲೋಕನ"
+      },
+      "academicPerformance": {
+        "title": "ಶೈಕ್ಷಣಿಕ ಪ್ರದರ್ಶನ"
+      }
+    },
+    "keyMetrics": {
+      "attendance": {
+        "title": "ಹಾಜರಿ",
+        "daysAttendedLabel": "ಹಾಜರಿದ ದಿನಗಳು"
+      },
+      "nextAssignment": {
+        "title": "ಮುಂದಿನ ಅಸೈನ್‌ಮೆಂಟ್",
+        "due": "ಕೊನೆ ದಿನಾಂಕ:"
+      },
+      "nextEvent": {
+        "title": "ಮುಂದಿನ ಕಾರ್ಯಕ್ರಮ",
+        "on": "ದಿನ:"
+      }
+    },
+    "modal": {
+      "emailLabel": "ಇಮೇಲ್",
+      "emailPlaceholder": "ನಿಮ್ಮ ಇಮೇಲ್ ನಮೂದಿಸಿ",
+      "passwordLabel": "ಪಾಸ್ವರ್ಡ್",
+      "passwordPlaceholder": "ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ನಮೂದಿಸಿ",
+      "loginButton": "ಲಾಗಿನ್"
+    },
+    "scholarships": {
+      "title": "ಸ್ಕಾಲರ್‌ಶಿಪ್‌ಗಳು",
+      "eligibility": "ಅರ್ಹತೆ:",
+      "deadline": "ಕೊನೆ ದಿನಾಂಕ:",
+      "applyNow": "ಈಗ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ →",
+      "statusOpen": "ತೆರೆದಿದೆ",
+      "statusClosed": "ಮುಚ್ಚಲಾಗಿದೆ"
+    },
+    "sidebar": {
+      "dashboard": "ಡ್ಯಾಶ್ಬೋರ್ಡ್",
+      "home": "ಮುಖಪುಟ",
+      "attendance": "ಹಾಜರಿ",
+      "dailySummary": "ದೈನಂದಿನ ಸಾರಾಂಶ",
+      "events": "ಕಾರ್ಯಕ್ರಮಗಳು",
+      "exams": "ಪರೀಕ್ಷೆಗಳು",
+      "chatbot": "ಚಾಟ್‌ಬಾಟ್"
+    },
+    "teacherRemarks": {
+      "title": "ಶಿಕ್ಷಕರ ಟಿಪ್ಪಣಿಗಳು"
+    },
+    "upcomingEvents": {
+      "title": "ಮುಂದಿನ ಕಾರ್ಯಕ್ರಮಗಳು",
+      "dateLabel": "ದಿನಾಂಕ:"
+    },
+    "upcomingHolidays": {
+      "title": "ಮುಂದಿನ ರಜಾ ದಿನಗಳು",
+      "to": "ವರೆಗೆ"
+    },
+    "homepage": {
+      "brand": "EduConnect",
+      "welcomeTitle": "EduConnect ಗೆ ಸ್ವಾಗತ",
+      "welcomeDescription": "ಪ್ರತಿ ವಿದ್ಯಾರ್ಥಿಗೆ ಸಮೃದ್ಧ ಶಿಕ್ಷಣ ವಾತಾವರಣವನ್ನು ರಚಿಸಲು ಪೋಷಕರು ಮತ್ತು ಶಿಕ್ಷಕರ ನಡುವೆ ಅರ್ಥಪೂರ್ಣ ಸಂಬಂಧಗಳನ್ನು ಬೆಳೆಸುವುದು.",
+      "cards": {
+        "parent": {
+          "title": "ಪೋಷಕರಿಗಾಗಿ",
+          "description": "ನಿಮ್ಮ ಮಗುವಿನ ಶೈಕ್ಷಣಿಕ ಪ್ರಯಾಣದೊಂದಿಗೆ ಸಂಪರ್ಕದಲ್ಲಿರಿ ಮತ್ತು ಶಿಕ್ಷಕರೊಂದಿಗೆ ಸುಗಮವಾಗಿ ಸಂವಹನ ಮಾಡಿ.",
+          "button": "ಆರಂಭಿಸಿ"
+        },
+        "teacher": {
+          "title": "ಶಿಕ್ಷಕರಿಗಾಗಿ",
+          "description": "ಸಂವಹನವನ್ನು ಸರಳಗೊಳಿಸಿ ಮತ್ತು ವಿದ್ಯಾರ್ಥಿಗಳ ಯಶಸ್ಸಿಗಾಗಿ ಸಹಕಾರಾತ್ಮಕ ವಾತಾವರಣವನ್ನು ನಿರ್ಮಿಸಿ.",
+          "button": "ಆರಂಭಿಸಿ"
+        }
+      },
+      "footer": {
+        "assistance": "ಸಹಾಯ ಬೇಕಾ? ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ",
+        "contact": "support@educonnect.com"
+      }
+    },
+    "teacherDashboard": {
+      "nav": {
+        "title": "ಶಿಕ್ಷಕ ಡ್ಯಾಶ್ಬೋರ್ಡ್",
+        "logout": "ಲಾಗ್ ಔಟ್"
+      },
+      "stats": {
+        "totalStudents": "ಒಟ್ಟು ವಿದ್ಯಾರ್ಥಿಗಳು",
+        "presentToday": "ಇಂದು ಹಾಜರಿದ್ದಾರೆ",
+        "remarksGiven": "ಕೊಟ್ಟ ಟಿಪ್ಪಣಿಗಳು"
+      },
+      "studentList": {
+        "title": "ವಿದ್ಯಾರ್ಥಿಗಳ ಪಟ್ಟಿ",
+        "columns": {
+          "name": "ಹೆಸರು",
+          "grade": "ಶ್ರೇಣಿ",
+          "attendance": "ಹಾಜರಿ",
+          "lastUpdated": "ಕೊನೆಯದಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ",
+          "actions": "ಕ್ರಿಯೆಗಳು"
+        },
+        "addRemark": "ಟಿಪ್ಪಣಿ ಸೇರಿಸಿ"
+      },
+      "remarksModal": {
+        "title": "ಗೆ ಟಿಪ್ಪಣಿ ಸೇರಿಸಿ",
+        "placeholder": "ನಿಮ್ಮ ಟಿಪ್ಪಣಿಯನ್ನು ಇಲ್ಲಿ ನಮೂದಿಸಿ...",
+        "cancel": "ರದ್ದುಮಾಡಿ",
+        "submit": "ಸಮರ್ಪಿಸು"
+      }
+    }
+  }
+  

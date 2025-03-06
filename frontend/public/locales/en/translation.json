@@ -1,0 +1,150 @@
+{
+    "assignments": {
+      "title": "Assignments",
+      "due": "Due:",
+      "viewResources": "View Resources →",
+      "statusComplete": "Complete",
+      "statusIncomplete": "Incomplete"
+    },
+    "attendance": {
+      "title": "Attendance",
+      "present": "Present",
+      "absent": "Absent",
+      "table": {
+        "name": "Name",
+        "rollNo": "Roll No",
+        "date": "Date",
+        "status": "Status"
+      }
+    },
+    "chatbot": {
+      "assistantTitle": "Educational Assistant",
+      "initialMessage": "Hello! I'm your educational assistant. How can I help you today?",
+      "placeholder": "Type your message here...",
+      "botReply": "Thank you for your message. I'm a demo chatbot. In the full version, I'll be able to help you with your educational queries!"
+    },
+    "dailySummary": {
+      "title": "Daily Summary",
+      "summaryText": "Teacher John uploaded a new summary:",
+      "audioFallback": "Your browser does not support the audio element."
+    },
+    "examsAndResults": {
+      "title": "Exams & Results",
+      "table": {
+        "student": "Student",
+        "subject": "Subject",
+        "examType": "Exam Type",
+        "marks": "Marks",
+        "grade": "Grade",
+        "idLabel": "ID:"
+      }
+    },
+    "graphCards": {
+      "attendanceOverview": {
+        "title": "Attendance Overview"
+      },
+      "academicPerformance": {
+        "title": "Academic Performance"
+      }
+    },
+    "keyMetrics": {
+      "attendance": {
+        "title": "Attendance",
+        "daysAttendedLabel": "Days Attended"
+      },
+      "nextAssignment": {
+        "title": "Next Assignment",
+        "due": "Due:"
+      },
+      "nextEvent": {
+        "title": "Next Event",
+        "on": "On:"
+      }
+    },
+    "modal": {
+      "emailLabel": "Email",
+      "emailPlaceholder": "Enter your email",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "loginButton": "Login"
+    },
+    "scholarships": {
+      "title": "Scholarships",
+      "eligibility": "Eligibility:",
+      "deadline": "Deadline:",
+      "applyNow": "Apply Now →",
+      "statusOpen": "Open",
+      "statusClosed": "Closed"
+    },
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "home": "Home",
+      "attendance": "Attendance",
+      "dailySummary": "Daily Summary",
+      "events": "Events",
+      "exams": "Exams",
+      "chatbot": "Chatbot"
+    },
+    "teacherRemarks": {
+      "title": "Teacher's Remarks"
+    },
+    "upcomingEvents": {
+      "title": "Upcoming Events",
+      "dateLabel": "Date:"
+    },
+    "upcomingHolidays": {
+      "title": "Upcoming Holidays",
+      "to": "to"
+    },
+    "homepage": {
+      "brand": "EduConnect",
+      "welcomeTitle": "Welcome to EduConnect",
+      "welcomeDescription": "Fostering meaningful connections between parents and teachers to create an enriched learning environment for every student.",
+      "cards": {
+        "parent": {
+          "title": "For Parents",
+          "description": "Stay connected with your child's educational journey and engage with teachers seamlessly.",
+          "button": "Get Started"
+        },
+        "teacher": {
+          "title": "For Teachers",
+          "description": "Streamline communication and create a collaborative environment for student success.",
+          "button": "Get Started"
+        }
+      },
+      "footer": {
+        "assistance": "Need assistance? Reach out to us at",
+        "contact": "support@educonnect.com"
+      }
+    },
+    "teacherDashboard": {
+      "nav": {
+        "title": "Teacher Dashboard",
+        "logout": "Logout"
+      },
+      "stats": {
+        "totalStudents": "Total Students",
+        "presentToday": "Present Today",
+        "remarksGiven": "Remarks Given"
+      },
+      "studentList": {
+        "title": "Student List",
+        "columns": {
+          "name": "Name",
+          "grade": "Grade",
+          "attendance": "Attendance",
+          "lastUpdated": "Last Updated",
+          "actions": "Actions"
+        },
+        "addRemark": "Add Remark"
+      },
+      "remarksModal": {
+        "title": "Add Remark for",
+        "placeholder": "Enter your remarks here...",
+        "cancel": "Cancel",
+        "submit": "Submit"
+      }
+    }
+  }
+  
+    

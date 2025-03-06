@@ -1,0 +1,24 @@
+# Flask and related libraries
+flask
+flask-cors
+requests
+python-dotenv
+
+# Twilio for SMS and WhatsApp integration
+twilio
+
+# Speech recognition and text-to-speech
+speechrecognition
+gtts
+pyaudio
+
+# AI and NLP
+huggingface_hub
+deep-translator
+langdetect
+indic-transliteration
+
+# Data processing and similarity matching
+numpy
+scipy
+json5
