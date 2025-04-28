@@ -2,7 +2,7 @@
 
 EduConnect is a parental engagement platform designed to track children's academic and non-academic progress. It provides multilingual support, AI-powered multilingual voicebot, a WhatsApp chatbot, and various features to enhance communication between parents and schools.
 
-# ![Architecture Diagram](https://github.com/user-attachments/assets/325b76f7-8f1a-4215-8023-d2bdca68e3cd)
+# ![Architecture Diagram](https://github.com/user-attachments/assets/8fc5ad94-24d9-4a22-b55e-ce846bc16a65)
 
 ## Features
 
